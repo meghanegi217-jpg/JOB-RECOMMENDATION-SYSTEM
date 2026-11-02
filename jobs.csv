@@ -1,0 +1,21 @@
+title,company,location,type,experience,salary_lpa,skills,description
+Python Developer,TechNova,Bangalore,Full-time,1,8,Python;Django;SQL;Git;REST API,Build and maintain backend services and APIs for web products
+Data Analyst,InsightIQ,Noida,Full-time,0,6,Python;SQL;Excel;Power BI;Statistics,Analyze business data and create dashboards for decision making
+Machine Learning Engineer,NeuralWorks,Hyderabad,Full-time,2,15,Python;Machine Learning;TensorFlow;Pandas;SQL,Train and deploy ML models for recommendation and prediction
+Frontend Developer,PixelCraft,Pune,Full-time,1,7,HTML;CSS;JavaScript;React;Git,Create responsive user interfaces for web applications
+Full Stack Developer,CodeBridge,Remote,Full-time,2,12,JavaScript;React;Node.js;MongoDB;Git,Develop end to end features across frontend and backend
+Data Scientist,DataMinds,Gurugram,Full-time,2,14,Python;Machine Learning;Statistics;Pandas;SQL;Scikit-learn,Build predictive models and communicate insights to stakeholders
+Java Developer,EnterpriseSoft,Chennai,Full-time,1,8,Java;Spring Boot;SQL;REST API;Git,Develop enterprise applications using Java and Spring
+DevOps Engineer,CloudLoop,Bangalore,Full-time,2,14,Linux;Docker;Kubernetes;AWS;Git,Automate deployment pipelines and manage cloud infrastructure
+UI/UX Designer,DesignHive,Remote,Contract,1,6,Figma;Prototyping;User Research;HTML;CSS,Design intuitive interfaces and run usability studies
+Data Engineer,PipelineHQ,Hyderabad,Full-time,2,13,Python;SQL;Spark;AWS;ETL,Build data pipelines and warehouses at scale
+Python Intern,StartupLab,Remote,Internship,0,3,Python;Git;SQL;Pandas,Assist the team with scripts automation and data tasks
+Android Developer,AppForge,Pune,Full-time,1,9,Kotlin;Android;Git;REST API;Firebase,Build and ship Android apps for millions of users
+Cybersecurity Analyst,SecureNet,Noida,Full-time,1,9,Networking;Linux;Security;Python;SIEM,Monitor threats and respond to security incidents
+Business Analyst,BizEdge,Mumbai,Full-time,1,8,SQL;Excel;Power BI;Communication;Statistics,Bridge business needs and technical teams with data insights
+NLP Engineer,LangLabs,Bangalore,Full-time,3,18,Python;NLP;PyTorch;Machine Learning;Transformers,Develop language models and text understanding systems
+Web Developer Intern,WebWave,Lucknow,Internship,0,2,HTML;CSS;JavaScript;Git,Learn and build websites under mentor guidance
+Cloud Engineer,SkyStack,Gurugram,Full-time,2,13,AWS;Linux;Docker;Terraform;Python,Design and manage scalable cloud environments
+QA Automation Engineer,TestPilot,Chennai,Full-time,1,7,Selenium;Python;SQL;Git;REST API,Automate testing for web and API products
+Data Analyst Intern,MetricMind,Remote,Internship,0,3,Excel;SQL;Python;Power BI,Support analytics team with reports and dashboards
+Backend Developer,ServeSmart,Mumbai,Full-time,2,11,Node.js;MongoDB;REST API;Docker;Git,Design scalable APIs and microservices
