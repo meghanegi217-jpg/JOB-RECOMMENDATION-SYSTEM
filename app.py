@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import pandas as pd
 import streamlit as st
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -27,7 +29,11 @@ st.markdown("""
 
 @st.cache_data
 def load_jobs():
-    df = pd.read_csv("data/jobs.csv")
+    base = Path(__file__).parent
+    path = base / "jobs.csv"
+    if not path.exists():
+        path = base / "data" / "jobs.csv"
+    df = pd.read_csv(path)
     df["skill_list"] = df["skills"].apply(lambda s: [x.strip() for x in s.split(";")])
     df["text"] = df["title"] + " " + df["skills"].str.replace(";", " ") + " " + df["description"]
     return df
