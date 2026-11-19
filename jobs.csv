@@ -1,21 +1,410 @@
-title,company,location,type,experience,salary_lpa,skills,description
-Python Developer,TechNova,Bangalore,Full-time,1,8,Python;Django;SQL;Git;REST API,Build and maintain backend services and APIs for web products
-Data Analyst,InsightIQ,Noida,Full-time,0,6,Python;SQL;Excel;Power BI;Statistics,Analyze business data and create dashboards for decision making
-Machine Learning Engineer,NeuralWorks,Hyderabad,Full-time,2,15,Python;Machine Learning;TensorFlow;Pandas;SQL,Train and deploy ML models for recommendation and prediction
-Frontend Developer,PixelCraft,Pune,Full-time,1,7,HTML;CSS;JavaScript;React;Git,Create responsive user interfaces for web applications
-Full Stack Developer,CodeBridge,Remote,Full-time,2,12,JavaScript;React;Node.js;MongoDB;Git,Develop end to end features across frontend and backend
-Data Scientist,DataMinds,Gurugram,Full-time,2,14,Python;Machine Learning;Statistics;Pandas;SQL;Scikit-learn,Build predictive models and communicate insights to stakeholders
-Java Developer,EnterpriseSoft,Chennai,Full-time,1,8,Java;Spring Boot;SQL;REST API;Git,Develop enterprise applications using Java and Spring
-DevOps Engineer,CloudLoop,Bangalore,Full-time,2,14,Linux;Docker;Kubernetes;AWS;Git,Automate deployment pipelines and manage cloud infrastructure
-UI/UX Designer,DesignHive,Remote,Contract,1,6,Figma;Prototyping;User Research;HTML;CSS,Design intuitive interfaces and run usability studies
-Data Engineer,PipelineHQ,Hyderabad,Full-time,2,13,Python;SQL;Spark;AWS;ETL,Build data pipelines and warehouses at scale
-Python Intern,StartupLab,Remote,Internship,0,3,Python;Git;SQL;Pandas,Assist the team with scripts automation and data tasks
-Android Developer,AppForge,Pune,Full-time,1,9,Kotlin;Android;Git;REST API;Firebase,Build and ship Android apps for millions of users
-Cybersecurity Analyst,SecureNet,Noida,Full-time,1,9,Networking;Linux;Security;Python;SIEM,Monitor threats and respond to security incidents
-Business Analyst,BizEdge,Mumbai,Full-time,1,8,SQL;Excel;Power BI;Communication;Statistics,Bridge business needs and technical teams with data insights
-NLP Engineer,LangLabs,Bangalore,Full-time,3,18,Python;NLP;PyTorch;Machine Learning;Transformers,Develop language models and text understanding systems
-Web Developer Intern,WebWave,Lucknow,Internship,0,2,HTML;CSS;JavaScript;Git,Learn and build websites under mentor guidance
-Cloud Engineer,SkyStack,Gurugram,Full-time,2,13,AWS;Linux;Docker;Terraform;Python,Design and manage scalable cloud environments
-QA Automation Engineer,TestPilot,Chennai,Full-time,1,7,Selenium;Python;SQL;Git;REST API,Automate testing for web and API products
-Data Analyst Intern,MetricMind,Remote,Internship,0,3,Excel;SQL;Python;Power BI,Support analytics team with reports and dashboards
-Backend Developer,ServeSmart,Mumbai,Full-time,2,11,Node.js;MongoDB;REST API;Docker;Git,Design scalable APIs and microservices
+title,company,location,type,experience,salary_lpa,skills,description,posted_date
+Full Stack Developer,GreenGrid,Mumbai,Full-time,5,24.7,MongoDB;SQL;Git;TypeScript,Own end-to-end delivery as a Full Stack Developer and improve performance and quality,2026-11-08
+Blockchain Developer,Nimbus Tech,Gurgaon,Part-time,4,11.9,Solidity;Smart Contracts;JavaScript;Node.js;Ethereum;Web3,"Design, develop and ship features as a Blockchain Developer in an agile team",2026-10-24
+Data Scientist,LogiTrack,Pune,Full-time,3,36.7,TensorFlow;Statistics;SQL;Python;Pandas,Own end-to-end delivery as a Data Scientist and improve performance and quality,2026-11-16
+Intern - Backend Developer,CyberShield,Remote,Internship,0,4.2,REST API;Node.js;Redis;MongoDB;AWS;Express,Join our growing team as a Backend Developer and work on modern tech stack,2026-11-08
+Intern - C++ Developer,Veda Analytics,Bangalore,Internship,0,3.6,Algorithms;Multithreading;Linux;Data Structures;Git;C++,Build and maintain scalable C++ Developer solutions for production products,2026-11-03
+UI/UX Designer,HealthPulse,Chennai,Full-time,5,7.9,Prototyping;CSS;UX Research;HTML;Figma;Wireframing,Join our growing team as a UI/UX Designer and work on modern tech stack,2026-11-01
+AI Engineer,TechNova,Bangalore,Full-time,6,66.5,Deep Learning;AWS;NLP;Docker;LLM;LangChain,Join our growing team as a AI Engineer and work on modern tech stack,2026-10-23
+Intern - Flutter Developer,EduSpark,Chandigarh,Internship,0,4.3,Dart;Firebase;REST API;Git;Android,Join our growing team as a Flutter Developer and work on modern tech stack,2026-10-26
+Cyber Security Analyst,Aarav Software,Delhi,Contract,6,18.3,Network Security;Linux;Python;SIEM;Ethical Hacking,Build and maintain scalable Cyber Security Analyst solutions for production products,2026-10-13
+QA / Test Engineer,NeuralWorks,Bangalore,Full-time,3,10.5,SQL;Test Automation;Java;Jira,Join our growing team as a QA / Test Engineer and work on modern tech stack,2026-10-18
+Rust Developer,Nimbus Tech,Kolkata,Contract,1,30.1,C++;Rust;Git;Linux,"Design, develop and ship features as a Rust Developer in an agile team",2026-10-15
+Backend Developer,Indus AI,Delhi,Full-time,5,20.9,MongoDB;REST API;Express;SQL;Redis,"Design, develop and ship features as a Backend Developer in an agile team",2026-10-14
+Frontend Developer,CyberShield,Bangalore,Full-time,1,18.5,TypeScript;Git;React;Redux;CSS;JavaScript,Build and maintain scalable Frontend Developer solutions for production products,2026-10-25
+Intern - Android Developer,Nimbus Tech,Pune,Internship,0,1.5,Git;Android;Kotlin;REST API;Jetpack Compose,"Design, develop and ship features as a Android Developer in an agile team",2026-11-06
+Full Stack Developer,BrightPath,Noida,Full-time,4,21.5,Node.js;SQL;Git;React,Work with cross-functional teams as a Full Stack Developer on high-impact projects,2026-11-07
+Cyber Security Analyst,Aarav Software,Bangalore,Part-time,4,11.7,Ethical Hacking;SIEM;Network Security;Python,Work with cross-functional teams as a Cyber Security Analyst on high-impact projects,2026-11-04
+C++ Developer,LogiTrack,Noida,Part-time,0,5.1,Data Structures;Git;Multithreading;C++;Linux;Algorithms,Build and maintain scalable C++ Developer solutions for production products,2026-11-12
+Android Developer,EduSpark,Noida,Full-time,2,9.2,Firebase;Jetpack Compose;Android;Git;Kotlin,Join our growing team as a Android Developer and work on modern tech stack,2026-11-10
+Game Developer,FinEdge,Mumbai,Full-time,2,19.8,C#;Unity;Game Design;Git,Work with cross-functional teams as a Game Developer on high-impact projects,2026-10-31
+Python Developer,Zenith Soft,Chennai,Full-time,1,9.6,SQL;Python;Git;Flask;Django;REST API,Work with cross-functional teams as a Python Developer on high-impact projects,2026-11-11
+Intern - Full Stack Developer,DataBridge,Chennai,Internship,0,1.9,Node.js;JavaScript;TypeScript;Git;Docker,Build and maintain scalable Full Stack Developer solutions for production products,2026-10-28
+Golang Developer,Bharat Cloud,Remote,Full-time,5,39.6,Docker;Microservices;gRPC;PostgreSQL;Go,"Design, develop and ship features as a Golang Developer in an agile team",2026-11-18
+iOS Developer,HealthPulse,Mumbai,Contract,1,9.5,iOS;Swift;Git;Firebase,Join our growing team as a iOS Developer and work on modern tech stack,2026-11-10
+Java Developer,Vistara Tech,Hyderabad,Contract,2,16.4,Kafka;Microservices;Hibernate;Java;SQL;Docker,"Design, develop and ship features as a Java Developer in an agile team",2026-10-30
+Cloud Engineer,Veda Analytics,Jaipur,Full-time,6,27.4,Terraform;Python;Networking;Kubernetes,Build and maintain scalable Cloud Engineer solutions for production products,2026-10-28
+Data Engineer,PixelCraft,Bangalore,Part-time,3,16.4,AWS;SQL;Kafka;Python,Build and maintain scalable Data Engineer solutions for production products,2026-10-28
+Full Stack Developer,CyberShield,Hyderabad,Full-time,5,17.3,SQL;JavaScript;MongoDB;Docker;React;TypeScript,Own end-to-end delivery as a Full Stack Developer and improve performance and quality,2026-11-08
+Cyber Security Analyst,InfoSys Labs,Bangalore,Full-time,1,10.8,Ethical Hacking;Penetration Testing;Linux;SIEM,"Design, develop and ship features as a Cyber Security Analyst in an agile team",2026-10-26
+Rust Developer,Orbit Systems,Kochi,Full-time,3,45.8,WebAssembly;Git;Rust;Systems Programming,Join our growing team as a Rust Developer and work on modern tech stack,2026-11-04
+AI Engineer,InfoSys Labs,Chennai,Full-time,5,51.7,Python;Docker;Deep Learning;LLM;NLP,Work with cross-functional teams as a AI Engineer on high-impact projects,2026-11-17
+Business Analyst,AppForge,Pune,Contract,3,19.4,Tableau;Excel;Jira;Power BI;Communication,Own end-to-end delivery as a Business Analyst and improve performance and quality,2026-10-22
+Intern - Rust Developer,TechNova,Remote,Internship,0,8.8,Git;Linux;C++;Rust;Systems Programming;WebAssembly,Join our growing team as a Rust Developer and work on modern tech stack,2026-11-06
+UI/UX Designer,Swift Logic,Bangalore,Full-time,0,14.2,Wireframing;CSS;Adobe XD;HTML,Build and maintain scalable UI/UX Designer solutions for production products,2026-11-15
+Rust Developer,Swift Logic,Noida,Full-time,6,40.2,Rust;Systems Programming;Git;Linux;WebAssembly;C++,Join our growing team as a Rust Developer and work on modern tech stack,2026-11-16
+AI Engineer,CloudNest,Remote,Full-time,6,46.7,PyTorch;Deep Learning;AWS;LangChain,Work with cross-functional teams as a AI Engineer on high-impact projects,2026-11-11
+Business Analyst,DataBridge,Pune,Full-time,6,20.9,Requirement Analysis;Power BI;Jira;Excel;Communication,Work with cross-functional teams as a Business Analyst on high-impact projects,2026-11-05
+Data Analyst,CloudNest,Mumbai,Full-time,0,9.1,Statistics;Python;Excel;Pandas;SQL;Tableau,Work with cross-functional teams as a Data Analyst on high-impact projects,2026-11-13
+Backend Developer,EduSpark,Remote,Full-time,2,15.4,Express;SQL;MongoDB;REST API;Redis;Docker,Build and maintain scalable Backend Developer solutions for production products,2026-11-15
+Rust Developer,Veda Analytics,Pune,Full-time,3,36.9,Git;Linux;Rust;Systems Programming;WebAssembly,Work with cross-functional teams as a Rust Developer on high-impact projects,2026-10-25
+Data Analyst,Kiran Labs,Noida,Full-time,4,12.7,Statistics;Pandas;Power BI;Tableau;SQL,"Design, develop and ship features as a Data Analyst in an agile team",2026-11-14
+Intern - Blockchain Developer,Aarav Software,Bangalore,Internship,0,4.8,Web3;Ethereum;Node.js;Smart Contracts;Solidity;JavaScript,"Design, develop and ship features as a Blockchain Developer in an agile team",2026-11-12
+Flutter Developer,GreenGrid,Noida,Full-time,4,17.4,Firebase;Dart;Git;Flutter,Own end-to-end delivery as a Flutter Developer and improve performance and quality,2026-11-12
+Android Developer,BrightPath,Bangalore,Full-time,5,14.8,Android;Kotlin;Firebase;Java;REST API,Own end-to-end delivery as a Android Developer and improve performance and quality,2026-11-09
+Business Analyst,EduSpark,Pune,Full-time,2,15.5,Excel;Power BI;Jira;Requirement Analysis;Tableau,Build and maintain scalable Business Analyst solutions for production products,2026-10-22
+Blockchain Developer,AppForge,Bangalore,Full-time,1,27.6,JavaScript;Solidity;Ethereum;Web3;Smart Contracts,Work with cross-functional teams as a Blockchain Developer on high-impact projects,2026-11-01
+Rust Developer,GreenGrid,Noida,Part-time,1,10.4,Systems Programming;C++;Git;Linux,Join our growing team as a Rust Developer and work on modern tech stack,2026-11-11
+Cyber Security Analyst,Vistara Tech,Gurgaon,Full-time,1,9.0,Linux;Network Security;SIEM;Python;Penetration Testing,"Design, develop and ship features as a Cyber Security Analyst in an agile team",2026-10-10
+DevOps Engineer,Kiran Labs,Pune,Full-time,8,21.1,Linux;Docker;Terraform;Jenkins;Kubernetes,Own end-to-end delivery as a DevOps Engineer and improve performance and quality,2026-11-18
+Data Scientist,Swift Logic,Delhi,Full-time,5,37.4,SQL;Machine Learning;NLP;Python;Scikit-learn,Join our growing team as a Data Scientist and work on modern tech stack,2026-10-22
+Cyber Security Analyst,AppForge,Hyderabad,Full-time,6,18.6,Penetration Testing;Network Security;Python;SIEM;Linux,Join our growing team as a Cyber Security Analyst and work on modern tech stack,2026-10-31
+Game Developer,CodeCraft,Noida,Full-time,2,22.5,Game Design;Unreal Engine;Unity;C++;Git;C#,Join our growing team as a Game Developer and work on modern tech stack,2026-11-06
+Backend Developer,MediaWave,Delhi,Full-time,6,29.1,AWS;Express;REST API;MongoDB;Redis;SQL,Work with cross-functional teams as a Backend Developer on high-impact projects,2026-11-08
+Backend Developer,Zenith Soft,Jaipur,Full-time,5,30.3,MongoDB;Express;Redis;REST API;Node.js;AWS,Work with cross-functional teams as a Backend Developer on high-impact projects,2026-10-21
+Backend Developer,Nimbus Tech,Bangalore,Full-time,4,22.1,AWS;Express;Docker;Node.js,Join our growing team as a Backend Developer and work on modern tech stack,2026-10-27
+C++ Developer,CloudNest,Delhi,Contract,0,12.0,Linux;Git;C++;Data Structures;Multithreading;Algorithms,Build and maintain scalable C++ Developer solutions for production products,2026-10-19
+C++ Developer,NeuralWorks,Noida,Full-time,0,13.1,Multithreading;Linux;Git;C++;Algorithms;Data Structures,Own end-to-end delivery as a C++ Developer and improve performance and quality,2026-10-21
+Intern - Data Scientist,Bharat Cloud,Noida,Internship,0,3.1,NLP;Machine Learning;Pandas;TensorFlow,Own end-to-end delivery as a Data Scientist and improve performance and quality,2026-11-04
+Intern - Flutter Developer,CodeCraft,Kolkata,Internship,0,3.5,Android;iOS;REST API;Git;Flutter,Build and maintain scalable Flutter Developer solutions for production products,2026-10-21
+Blockchain Developer,FinEdge,Bangalore,Full-time,5,36.7,Ethereum;Smart Contracts;Web3;Solidity,Work with cross-functional teams as a Blockchain Developer on high-impact projects,2026-10-19
+Intern - QA / Test Engineer,HealthPulse,Remote,Internship,0,2.9,Python;SQL;Jira;Test Automation;Selenium,"Design, develop and ship features as a QA / Test Engineer in an agile team",2026-11-06
+C++ Developer,Nimbus Tech,Bangalore,Contract,0,21.9,Data Structures;Linux;Algorithms;Multithreading;C++;Git,Own end-to-end delivery as a C++ Developer and improve performance and quality,2026-10-27
+Cloud Engineer,Vistara Tech,Noida,Full-time,7,32.2,AWS;Terraform;Python;Networking;Linux;Kubernetes,Build and maintain scalable Cloud Engineer solutions for production products,2026-11-16
+Intern - Android Developer,CloudNest,Bangalore,Internship,0,4.7,REST API;Firebase;Jetpack Compose;Kotlin;Git,Own end-to-end delivery as a Android Developer and improve performance and quality,2026-10-19
+Frontend Developer,Bharat Cloud,Remote,Full-time,2,4.9,CSS;Tailwind;TypeScript;Redux,Work with cross-functional teams as a Frontend Developer on high-impact projects,2026-11-15
+Data Engineer,EduSpark,Hyderabad,Contract,2,18.3,Airflow;Snowflake;SQL;Kafka;Spark,Work with cross-functional teams as a Data Engineer on high-impact projects,2026-11-08
+Flutter Developer,InsightIQ,Gurgaon,Full-time,0,12.6,REST API;iOS;Git;Flutter;Dart;Android,Work with cross-functional teams as a Flutter Developer on high-impact projects,2026-11-09
+Data Engineer,PixelCraft,Mumbai,Full-time,5,21.7,Python;Spark;Kafka;AWS;SQL,Work with cross-functional teams as a Data Engineer on high-impact projects,2026-10-15
+.NET Developer,InfoSys Labs,Hyderabad,Full-time,2,14.8,Entity Framework;C#;Azure;REST API,"Design, develop and ship features as a .NET Developer in an agile team",2026-10-12
+Intern - Blockchain Developer,Orbit Systems,Jaipur,Internship,0,5.5,Solidity;JavaScript;Ethereum;Smart Contracts;Node.js,Join our growing team as a Blockchain Developer and work on modern tech stack,2026-10-29
+Intern - Full Stack Developer,InsightIQ,Remote,Internship,0,4.0,TypeScript;Docker;MongoDB;SQL,Work with cross-functional teams as a Full Stack Developer on high-impact projects,2026-11-01
+QA / Test Engineer,QuantumLeap,Chennai,Full-time,3,5.7,Java;SQL;Selenium;Python,Build and maintain scalable QA / Test Engineer solutions for production products,2026-11-13
+C++ Developer,CyberShield,Noida,Contract,0,23.7,Git;Data Structures;Multithreading;Algorithms;C++;Linux,Work with cross-functional teams as a C++ Developer on high-impact projects,2026-11-13
+Java Developer,BrightPath,Noida,Full-time,3,16.5,SQL;Spring Boot;Docker;Hibernate;Git,Work with cross-functional teams as a Java Developer on high-impact projects,2026-11-05
+Flutter Developer,CloudNest,Delhi,Full-time,2,6.9,Git;iOS;Dart;REST API,"Design, develop and ship features as a Flutter Developer in an agile team",2026-10-21
+Data Analyst,ShopSphere,Remote,Full-time,0,5.4,Python;Statistics;Power BI;Tableau;Excel,Build and maintain scalable Data Analyst solutions for production products,2026-11-03
+Business Analyst,GreenGrid,Chennai,Full-time,0,14.8,SQL;Requirement Analysis;Excel;Power BI,Join our growing team as a Business Analyst and work on modern tech stack,2026-11-02
+Data Analyst,InfoSys Labs,Chennai,Full-time,4,5.4,Excel;Statistics;SQL;Power BI,Work with cross-functional teams as a Data Analyst on high-impact projects,2026-11-02
+PHP Developer,Zenith Soft,Bangalore,Contract,3,5.0,PHP;HTML;CSS;MySQL,Join our growing team as a PHP Developer and work on modern tech stack,2026-11-15
+Data Engineer,BrightPath,Noida,Contract,4,30.6,Snowflake;Kafka;Python;AWS,Build and maintain scalable Data Engineer solutions for production products,2026-11-13
+Android Developer,Bharat Cloud,Pune,Contract,3,22.4,Jetpack Compose;Android;Git;Firebase;REST API;Java,Work with cross-functional teams as a Android Developer on high-impact projects,2026-11-06
+Full Stack Developer,InfoSys Labs,Noida,Full-time,1,10.5,SQL;TypeScript;MongoDB;React;Node.js;JavaScript,Join our growing team as a Full Stack Developer and work on modern tech stack,2026-10-25
+DevOps Engineer,HealthPulse,Hyderabad,Full-time,7,18.4,Linux;CI/CD;Git;Jenkins;AWS;Kubernetes,Join our growing team as a DevOps Engineer and work on modern tech stack,2026-10-21
+Data Engineer,CyberShield,Chennai,Full-time,5,38.9,Spark;ETL;Airflow;Kafka;SQL,Build and maintain scalable Data Engineer solutions for production products,2026-11-07
+PHP Developer,Aarav Software,Remote,Full-time,0,10.2,MySQL;HTML;Git;JavaScript;PHP;Laravel,Join our growing team as a PHP Developer and work on modern tech stack,2026-10-25
+Intern - Cloud Engineer,MediaWave,Remote,Internship,0,4.1,Kubernetes;Azure;AWS;Linux;Terraform,"Design, develop and ship features as a Cloud Engineer in an agile team",2026-11-07
+Game Developer,EduSpark,Remote,Full-time,4,13.3,Unity;Git;C#;Game Design;C++;Unreal Engine,Work with cross-functional teams as a Game Developer on high-impact projects,2026-11-01
+iOS Developer,MediaWave,Pune,Full-time,3,9.4,Swift;Firebase;SwiftUI;Xcode,Join our growing team as a iOS Developer and work on modern tech stack,2026-11-15
+QA / Test Engineer,FinEdge,Bangalore,Full-time,1,8.5,Selenium;Jira;Python;Java,Build and maintain scalable QA / Test Engineer solutions for production products,2026-11-06
+Intern - Data Scientist,CloudNest,Noida,Internship,0,5.2,Statistics;SQL;Machine Learning;Python;TensorFlow,Build and maintain scalable Data Scientist solutions for production products,2026-11-10
+Intern - Rust Developer,NeuralWorks,Noida,Internship,0,5.8,Rust;WebAssembly;Systems Programming;C++,Build and maintain scalable Rust Developer solutions for production products,2026-10-21
+Flutter Developer,InfoSys Labs,Noida,Full-time,0,18.0,Dart;REST API;Flutter;Firebase;Android,"Design, develop and ship features as a Flutter Developer in an agile team",2026-11-04
+Data Analyst,NeuralWorks,Noida,Full-time,1,10.8,Excel;Power BI;Python;SQL;Statistics,Build and maintain scalable Data Analyst solutions for production products,2026-10-17
+.NET Developer,Zenith Soft,Bangalore,Part-time,4,8.3,Entity Framework;REST API;SQL Server;.NET;Git;C#,Join our growing team as a .NET Developer and work on modern tech stack,2026-11-04
+AI Engineer,Aarav Software,Gurgaon,Full-time,3,31.8,NLP;Docker;AWS;LangChain;Deep Learning,"Design, develop and ship features as a AI Engineer in an agile team",2026-11-14
+Flutter Developer,TechNova,Kolkata,Full-time,0,17.7,iOS;Android;REST API;Firebase;Git,Own end-to-end delivery as a Flutter Developer and improve performance and quality,2026-11-09
+Business Analyst,Bharat Cloud,Delhi,Full-time,2,19.4,Power BI;Requirement Analysis;Communication;SQL,Join our growing team as a Business Analyst and work on modern tech stack,2026-11-02
+Intern - Rust Developer,CodeCraft,Bangalore,Internship,0,3.8,Systems Programming;Linux;WebAssembly;C++;Git,Work with cross-functional teams as a Rust Developer on high-impact projects,2026-11-19
+Data Analyst,FinEdge,Hyderabad,Full-time,2,15.5,Tableau;Power BI;Python;Pandas;SQL;Statistics,Build and maintain scalable Data Analyst solutions for production products,2026-11-16
+Intern - Full Stack Developer,AppForge,Mumbai,Internship,0,1.8,Git;JavaScript;React;MongoDB;Docker;TypeScript,Own end-to-end delivery as a Full Stack Developer and improve performance and quality,2026-11-08
+Data Scientist,GreenGrid,Noida,Contract,4,20.5,Pandas;SQL;Scikit-learn;Python;TensorFlow,Own end-to-end delivery as a Data Scientist and improve performance and quality,2026-11-07
+Flutter Developer,Swift Logic,Noida,Full-time,1,16.4,iOS;Flutter;Dart;REST API;Android,Join our growing team as a Flutter Developer and work on modern tech stack,2026-11-12
+Backend Developer,CyberShield,Remote,Full-time,1,19.4,REST API;Node.js;Docker;Express;SQL;AWS,Build and maintain scalable Backend Developer solutions for production products,2026-11-16
+Cloud Engineer,LogiTrack,Bangalore,Full-time,1,15.8,Azure;Terraform;Python;AWS,Join our growing team as a Cloud Engineer and work on modern tech stack,2026-11-11
+Frontend Developer,PixelCraft,Noida,Full-time,3,14.7,JavaScript;CSS;Tailwind;TypeScript,Join our growing team as a Frontend Developer and work on modern tech stack,2026-11-12
+QA / Test Engineer,QuantumLeap,Jaipur,Full-time,1,6.8,Python;Test Automation;Selenium;Java,Join our growing team as a QA / Test Engineer and work on modern tech stack,2026-11-01
+Java Developer,CloudNest,Hyderabad,Contract,2,20.5,Git;Microservices;Hibernate;Java,Own end-to-end delivery as a Java Developer and improve performance and quality,2026-10-18
+Game Developer,QuantumLeap,Bangalore,Contract,5,7.9,Unity;C++;Unreal Engine;Git;C#,Build and maintain scalable Game Developer solutions for production products,2026-11-10
+Frontend Developer,CodeCraft,Bangalore,Full-time,3,6.5,React;TypeScript;HTML;Redux,"Design, develop and ship features as a Frontend Developer in an agile team",2026-10-11
+Full Stack Developer,Nimbus Tech,Mumbai,Full-time,5,29.5,TypeScript;SQL;Docker;Git;React;JavaScript,Own end-to-end delivery as a Full Stack Developer and improve performance and quality,2026-11-09
+Cyber Security Analyst,LogiTrack,Kochi,Full-time,3,9.1,Python;Ethical Hacking;SIEM;Penetration Testing;Linux;Network Security,Build and maintain scalable Cyber Security Analyst solutions for production products,2026-10-25
+QA / Test Engineer,EduSpark,Noida,Full-time,0,9.2,Selenium;SQL;Postman;Jira;Java;Test Automation,"Design, develop and ship features as a QA / Test Engineer in an agile team",2026-10-21
+Full Stack Developer,ShopSphere,Gurgaon,Full-time,2,15.8,MongoDB;Node.js;React;Docker;JavaScript;SQL,Work with cross-functional teams as a Full Stack Developer on high-impact projects,2026-11-17
+Android Developer,FinEdge,Pune,Contract,5,10.1,Git;REST API;Android;Java,Own end-to-end delivery as a Android Developer and improve performance and quality,2026-11-11
+Rust Developer,InfoSys Labs,Delhi,Full-time,1,24.1,C++;Git;Systems Programming;WebAssembly;Linux,"Design, develop and ship features as a Rust Developer in an agile team",2026-10-12
+Rust Developer,InfoSys Labs,Remote,Full-time,2,36.2,Rust;Systems Programming;C++;WebAssembly,Join our growing team as a Rust Developer and work on modern tech stack,2026-10-28
+iOS Developer,Aarav Software,Remote,Full-time,4,10.3,Firebase;Git;iOS;Swift;REST API,Own end-to-end delivery as a iOS Developer and improve performance and quality,2026-11-17
+DevOps Engineer,Zenith Soft,Bangalore,Full-time,2,28.4,Git;Terraform;AWS;Jenkins;Docker;Linux,Build and maintain scalable DevOps Engineer solutions for production products,2026-10-29
+Intern - Golang Developer,Zenith Soft,Bangalore,Internship,0,3.7,gRPC;PostgreSQL;Docker;Microservices;Kubernetes,"Design, develop and ship features as a Golang Developer in an agile team",2026-11-02
+Data Analyst,CyberShield,Bangalore,Full-time,2,13.6,Power BI;Tableau;Python;SQL;Pandas,Own end-to-end delivery as a Data Analyst and improve performance and quality,2026-10-25
+Frontend Developer,Pragati Digital,Bangalore,Full-time,3,18.1,HTML;Redux;TypeScript;Git;Tailwind;React,"Design, develop and ship features as a Frontend Developer in an agile team",2026-10-20
+QA / Test Engineer,Kiran Labs,Mumbai,Full-time,0,9.9,Postman;Selenium;Test Automation;SQL,Own end-to-end delivery as a QA / Test Engineer and improve performance and quality,2026-11-13
+Data Scientist,EduSpark,Noida,Contract,1,18.2,Scikit-learn;Python;Pandas;SQL,Join our growing team as a Data Scientist and work on modern tech stack,2026-10-11
+UI/UX Designer,NeuralWorks,Bangalore,Part-time,3,14.5,CSS;Figma;HTML;Wireframing;UX Research,Work with cross-functional teams as a UI/UX Designer on high-impact projects,2026-11-12
+Python Developer,TechNova,Pune,Full-time,1,16.7,Git;Python;REST API;Django,Own end-to-end delivery as a Python Developer and improve performance and quality,2026-11-19
+Data Scientist,NeuralWorks,Remote,Part-time,1,17.7,Machine Learning;Pandas;TensorFlow;NLP;SQL,Work with cross-functional teams as a Data Scientist on high-impact projects,2026-10-18
+iOS Developer,BrightPath,Ahmedabad,Full-time,5,28.5,Firebase;REST API;Xcode;Git,Join our growing team as a iOS Developer and work on modern tech stack,2026-11-18
+Business Analyst,InsightIQ,Dehradun,Full-time,5,20.0,Jira;Tableau;SQL;Excel,Own end-to-end delivery as a Business Analyst and improve performance and quality,2026-11-13
+Intern - Cyber Security Analyst,Bharat Cloud,Kochi,Internship,0,4.3,Python;Penetration Testing;Network Security;Linux,Join our growing team as a Cyber Security Analyst and work on modern tech stack,2026-10-24
+Full Stack Developer,InsightIQ,Noida,Contract,4,29.9,Git;MongoDB;Node.js;TypeScript;SQL;Docker,Work with cross-functional teams as a Full Stack Developer on high-impact projects,2026-10-19
+DevOps Engineer,Swift Logic,Bangalore,Full-time,8,27.1,AWS;Git;CI/CD;Linux;Jenkins;Docker,"Design, develop and ship features as a DevOps Engineer in an agile team",2026-11-12
+Full Stack Developer,ShopSphere,Chandigarh,Full-time,6,35.3,Node.js;MongoDB;Docker;React;Git;SQL,Join our growing team as a Full Stack Developer and work on modern tech stack,2026-10-25
+Python Developer,QuantumLeap,Bangalore,Contract,4,18.1,Python;Git;REST API;Django,Work with cross-functional teams as a Python Developer on high-impact projects,2026-10-29
+Python Developer,Indus AI,Remote,Part-time,1,6.1,SQL;PostgreSQL;REST API;Python;Flask;Git,Build and maintain scalable Python Developer solutions for production products,2026-11-09
+Rust Developer,LogiTrack,Bangalore,Contract,5,41.2,Rust;Linux;WebAssembly;C++;Systems Programming,Build and maintain scalable Rust Developer solutions for production products,2026-11-06
+Machine Learning Engineer,CodeCraft,Remote,Full-time,6,21.2,Docker;Pandas;TensorFlow;PyTorch,Own end-to-end delivery as a Machine Learning Engineer and improve performance and quality,2026-10-28
+Golang Developer,GreenGrid,Noida,Contract,2,34.9,REST API;Go;PostgreSQL;Microservices;gRPC,Build and maintain scalable Golang Developer solutions for production products,2026-10-30
+Data Analyst,LogiTrack,Noida,Full-time,4,18.0,Python;Power BI;Pandas;Tableau;Statistics,Join our growing team as a Data Analyst and work on modern tech stack,2026-11-15
+Intern - Data Scientist,Indus AI,Remote,Internship,0,6.2,Python;Statistics;TensorFlow;NLP,Own end-to-end delivery as a Data Scientist and improve performance and quality,2026-11-07
+Frontend Developer,FinEdge,Pune,Part-time,3,3.7,CSS;Git;JavaScript;Tailwind;TypeScript;Redux,"Design, develop and ship features as a Frontend Developer in an agile team",2026-11-09
+Java Developer,NeuralWorks,Bangalore,Full-time,4,19.6,Java;Docker;Kafka;SQL;Git;Hibernate,Build and maintain scalable Java Developer solutions for production products,2026-11-16
+Backend Developer,Indus AI,Bangalore,Full-time,0,7.7,MongoDB;Node.js;AWS;Docker;REST API,"Design, develop and ship features as a Backend Developer in an agile team",2026-11-12
+Intern - Full Stack Developer,ShopSphere,Noida,Internship,0,5.9,React;SQL;JavaScript;Git;Docker,Build and maintain scalable Full Stack Developer solutions for production products,2026-10-24
+Machine Learning Engineer,Indus AI,Remote,Full-time,2,37.1,TensorFlow;Machine Learning;Docker;MLOps;PyTorch;Python,Join our growing team as a Machine Learning Engineer and work on modern tech stack,2026-11-06
+Flutter Developer,ShopSphere,Delhi,Full-time,0,8.8,Firebase;iOS;Dart;Android,"Design, develop and ship features as a Flutter Developer in an agile team",2026-10-23
+Cyber Security Analyst,Swift Logic,Chennai,Full-time,1,24.5,Python;Network Security;SIEM;Ethical Hacking;Linux,Own end-to-end delivery as a Cyber Security Analyst and improve performance and quality,2026-11-11
+Android Developer,CodeCraft,Gurgaon,Full-time,3,6.4,Kotlin;Android;Firebase;Git;REST API,Join our growing team as a Android Developer and work on modern tech stack,2026-11-13
+Data Analyst,CyberShield,Dehradun,Full-time,3,10.7,Tableau;Pandas;Power BI;Excel,"Design, develop and ship features as a Data Analyst in an agile team",2026-11-12
+Intern - Game Developer,Vistara Tech,Bangalore,Internship,0,4.5,C#;Unity;C++;Git;Game Design,Own end-to-end delivery as a Game Developer and improve performance and quality,2026-10-24
+Android Developer,QuantumLeap,Mumbai,Contract,0,13.1,REST API;Jetpack Compose;Firebase;Android;Kotlin,Own end-to-end delivery as a Android Developer and improve performance and quality,2026-11-08
+Rust Developer,Orbit Systems,Gurgaon,Full-time,1,31.5,Git;Systems Programming;C++;Rust,Own end-to-end delivery as a Rust Developer and improve performance and quality,2026-11-17
+iOS Developer,ShopSphere,Mumbai,Full-time,2,24.1,REST API;Xcode;Swift;Firebase;Git;iOS,Own end-to-end delivery as a iOS Developer and improve performance and quality,2026-10-26
+iOS Developer,Orbit Systems,Remote,Full-time,1,11.2,Firebase;SwiftUI;Git;Swift;REST API;Xcode,Own end-to-end delivery as a iOS Developer and improve performance and quality,2026-10-16
+PHP Developer,Swift Logic,Remote,Full-time,4,10.2,Laravel;JavaScript;HTML;Git;PHP,Work with cross-functional teams as a PHP Developer on high-impact projects,2026-10-29
+Intern - AI Engineer,Orbit Systems,Hyderabad,Internship,0,4.8,Deep Learning;PyTorch;NLP;Docker;AWS,Own end-to-end delivery as a AI Engineer and improve performance and quality,2026-11-13
+UI/UX Designer,CodeCraft,Indore,Full-time,3,13.8,Figma;Wireframing;CSS;HTML,"Design, develop and ship features as a UI/UX Designer in an agile team",2026-10-23
+Data Engineer,GreenGrid,Mumbai,Full-time,7,35.1,ETL;Airflow;SQL;Spark;AWS;Python,Work with cross-functional teams as a Data Engineer on high-impact projects,2026-11-04
+Data Scientist,NeuralWorks,Hyderabad,Full-time,2,28.2,TensorFlow;SQL;Scikit-learn;NLP;Machine Learning;Python,Work with cross-functional teams as a Data Scientist on high-impact projects,2026-11-06
+Blockchain Developer,Veda Analytics,Chennai,Full-time,5,22.2,Solidity;JavaScript;Smart Contracts;Node.js;Web3,Work with cross-functional teams as a Blockchain Developer on high-impact projects,2026-11-01
+PHP Developer,Pragati Digital,Noida,Full-time,3,7.0,JavaScript;MySQL;Git;Laravel;HTML,"Design, develop and ship features as a PHP Developer in an agile team",2026-11-16
+DevOps Engineer,Veda Analytics,Pune,Full-time,1,25.1,Linux;AWS;Docker;Terraform;CI/CD;Kubernetes,Build and maintain scalable DevOps Engineer solutions for production products,2026-11-09
+.NET Developer,BrightPath,Bangalore,Full-time,5,27.0,SQL Server;Entity Framework;C#;REST API;.NET;Git,"Design, develop and ship features as a .NET Developer in an agile team",2026-10-29
+Rust Developer,Nimbus Tech,Bangalore,Full-time,1,16.1,Rust;Linux;Systems Programming;WebAssembly,Work with cross-functional teams as a Rust Developer on high-impact projects,2026-11-12
+Flutter Developer,PixelCraft,Mumbai,Full-time,0,12.9,iOS;Android;Git;REST API;Flutter;Firebase,"Design, develop and ship features as a Flutter Developer in an agile team",2026-11-16
+UI/UX Designer,AppForge,Kolkata,Contract,2,22.1,Prototyping;Figma;Wireframing;HTML;UX Research,Work with cross-functional teams as a UI/UX Designer on high-impact projects,2026-10-16
+PHP Developer,Swift Logic,Bangalore,Full-time,1,10.6,CSS;Laravel;MySQL;HTML,Join our growing team as a PHP Developer and work on modern tech stack,2026-11-03
+Intern - Game Developer,BrightPath,Hyderabad,Internship,0,4.8,Game Design;Git;Unity;C#,Build and maintain scalable Game Developer solutions for production products,2026-11-02
+Game Developer,PixelCraft,Noida,Full-time,1,12.7,C#;Unreal Engine;Game Design;C++,"Design, develop and ship features as a Game Developer in an agile team",2026-11-10
+Data Engineer,AppForge,Gurgaon,Full-time,4,20.2,Python;Spark;Kafka;ETL;Snowflake;AWS,"Design, develop and ship features as a Data Engineer in an agile team",2026-11-09
+iOS Developer,ShopSphere,Jaipur,Part-time,2,14.9,REST API;iOS;Git;Xcode,Own end-to-end delivery as a iOS Developer and improve performance and quality,2026-11-16
+UI/UX Designer,GreenGrid,Delhi,Full-time,0,14.3,Figma;UX Research;Wireframing;Prototyping;HTML,Work with cross-functional teams as a UI/UX Designer on high-impact projects,2026-11-18
+iOS Developer,Vistara Tech,Bangalore,Full-time,6,27.8,Swift;Git;iOS;SwiftUI;Firebase;REST API,"Design, develop and ship features as a iOS Developer in an agile team",2026-11-06
+Machine Learning Engineer,NeuralWorks,Mumbai,Full-time,4,24.0,AWS;PyTorch;Machine Learning;Pandas;Docker,"Design, develop and ship features as a Machine Learning Engineer in an agile team",2026-10-31
+Intern - Business Analyst,Orbit Systems,Hyderabad,Internship,0,3.9,Jira;Requirement Analysis;SQL;Excel,Own end-to-end delivery as a Business Analyst and improve performance and quality,2026-10-31
+PHP Developer,Swift Logic,Noida,Full-time,3,14.3,MySQL;Laravel;HTML;Git,Build and maintain scalable PHP Developer solutions for production products,2026-10-15
+Golang Developer,Pragati Digital,Hyderabad,Full-time,4,40.0,Kubernetes;gRPC;PostgreSQL;Go;Microservices,Own end-to-end delivery as a Golang Developer and improve performance and quality,2026-11-15
+Android Developer,BrightPath,Chandigarh,Full-time,1,21.3,Java;REST API;Android;Git,Build and maintain scalable Android Developer solutions for production products,2026-11-15
+Game Developer,EduSpark,Gurgaon,Full-time,2,21.2,Game Design;Unreal Engine;Unity;C#;C++,Join our growing team as a Game Developer and work on modern tech stack,2026-11-05
+.NET Developer,BrightPath,Noida,Full-time,6,26.9,Azure;REST API;Entity Framework;SQL Server,Build and maintain scalable .NET Developer solutions for production products,2026-11-10
+Business Analyst,CodeCraft,Bangalore,Full-time,6,13.9,Excel;Communication;Requirement Analysis;Jira;SQL;Tableau,Work with cross-functional teams as a Business Analyst on high-impact projects,2026-11-05
+AI Engineer,InsightIQ,Chandigarh,Part-time,5,22.7,Deep Learning;PyTorch;LangChain;LLM;NLP,Work with cross-functional teams as a AI Engineer on high-impact projects,2026-11-01
+Python Developer,BrightPath,Gurgaon,Full-time,0,9.9,Python;Django;Flask;SQL,Own end-to-end delivery as a Python Developer and improve performance and quality,2026-11-10
+C++ Developer,Bharat Cloud,Noida,Full-time,6,18.9,Linux;Algorithms;C++;Git;Multithreading,Join our growing team as a C++ Developer and work on modern tech stack,2026-10-12
+Data Analyst,PixelCraft,Remote,Contract,1,12.3,SQL;Pandas;Power BI;Python;Statistics;Excel,"Design, develop and ship features as a Data Analyst in an agile team",2026-11-10
+Data Scientist,EduSpark,Ahmedabad,Full-time,1,12.4,Scikit-learn;NLP;Statistics;SQL;TensorFlow;Python,"Design, develop and ship features as a Data Scientist in an agile team",2026-11-08
+C++ Developer,Veda Analytics,Remote,Full-time,3,12.3,C++;Data Structures;Linux;Git,Own end-to-end delivery as a C++ Developer and improve performance and quality,2026-11-15
+C++ Developer,FinEdge,Hyderabad,Full-time,1,22.2,Linux;C++;Multithreading;Git;Algorithms,Join our growing team as a C++ Developer and work on modern tech stack,2026-11-03
+Data Analyst,Kiran Labs,Gurgaon,Full-time,1,13.3,Pandas;SQL;Statistics;Excel;Power BI,Work with cross-functional teams as a Data Analyst on high-impact projects,2026-11-16
+Golang Developer,BrightPath,Remote,Full-time,3,31.0,gRPC;Kubernetes;Docker;PostgreSQL;Go,Own end-to-end delivery as a Golang Developer and improve performance and quality,2026-10-26
+Android Developer,Pragati Digital,Pune,Full-time,5,18.2,Android;Git;Java;Kotlin,Work with cross-functional teams as a Android Developer on high-impact projects,2026-10-25
+Android Developer,AppForge,Remote,Full-time,0,6.3,Git;Jetpack Compose;Firebase;Java;REST API;Android,Join our growing team as a Android Developer and work on modern tech stack,2026-11-04
+Java Developer,FinEdge,Bangalore,Full-time,6,9.1,Hibernate;Spring Boot;Git;Microservices;SQL;Kafka,"Design, develop and ship features as a Java Developer in an agile team",2026-11-03
+Frontend Developer,QuantumLeap,Chandigarh,Contract,5,15.6,HTML;Tailwind;Redux;Git,"Design, develop and ship features as a Frontend Developer in an agile team",2026-11-07
+Cloud Engineer,Pragati Digital,Pune,Contract,4,34.8,Azure;Networking;Terraform;Python;AWS;Kubernetes,Join our growing team as a Cloud Engineer and work on modern tech stack,2026-11-15
+Game Developer,BrightPath,Indore,Full-time,4,16.3,C#;Game Design;C++;Unity,Join our growing team as a Game Developer and work on modern tech stack,2026-11-19
+Intern - UI/UX Designer,InfoSys Labs,Kochi,Internship,0,3.8,Adobe XD;UX Research;HTML;Prototyping,"Design, develop and ship features as a UI/UX Designer in an agile team",2026-11-09
+Intern - Rust Developer,Indus AI,Mumbai,Internship,0,8.2,Systems Programming;Linux;Git;WebAssembly;C++,"Design, develop and ship features as a Rust Developer in an agile team",2026-11-16
+PHP Developer,NeuralWorks,Chennai,Full-time,4,14.1,HTML;PHP;JavaScript;CSS;MySQL;Git,Join our growing team as a PHP Developer and work on modern tech stack,2026-10-29
+Flutter Developer,ShopSphere,Kolkata,Full-time,1,11.7,iOS;REST API;Git;Flutter,Build and maintain scalable Flutter Developer solutions for production products,2026-11-10
+DevOps Engineer,InfoSys Labs,Mumbai,Part-time,2,20.5,Jenkins;Git;Terraform;CI/CD;Linux;Docker,Join our growing team as a DevOps Engineer and work on modern tech stack,2026-11-15
+Game Developer,ShopSphere,Bangalore,Contract,1,18.1,C++;C#;Unreal Engine;Unity;Game Design,Build and maintain scalable Game Developer solutions for production products,2026-11-14
+Rust Developer,EduSpark,Pune,Full-time,2,27.4,C++;Systems Programming;Linux;WebAssembly,Work with cross-functional teams as a Rust Developer on high-impact projects,2026-11-10
+iOS Developer,NeuralWorks,Hyderabad,Full-time,1,13.0,Swift;iOS;Firebase;Xcode,Work with cross-functional teams as a iOS Developer on high-impact projects,2026-11-14
+Data Analyst,Swift Logic,Jaipur,Full-time,0,13.6,Python;Power BI;Excel;Statistics,Work with cross-functional teams as a Data Analyst on high-impact projects,2026-11-08
+iOS Developer,Aarav Software,Bangalore,Full-time,5,27.8,Swift;REST API;Git;iOS;Xcode;Firebase,Join our growing team as a iOS Developer and work on modern tech stack,2026-11-05
+Business Analyst,Indus AI,Noida,Full-time,3,15.0,SQL;Excel;Tableau;Requirement Analysis;Communication;Power BI,Build and maintain scalable Business Analyst solutions for production products,2026-11-18
+Android Developer,FinEdge,Gurgaon,Full-time,3,26.7,Android;Firebase;REST API;Git;Jetpack Compose,Build and maintain scalable Android Developer solutions for production products,2026-11-12
+Flutter Developer,Pragati Digital,Mumbai,Part-time,3,10.5,Firebase;Dart;Android;REST API,Own end-to-end delivery as a Flutter Developer and improve performance and quality,2026-11-11
+Java Developer,QuantumLeap,Gurgaon,Full-time,5,18.5,Hibernate;SQL;Kafka;Microservices;Docker,Work with cross-functional teams as a Java Developer on high-impact projects,2026-11-16
+Data Scientist,Kiran Labs,Pune,Full-time,4,19.7,Scikit-learn;NLP;Statistics;TensorFlow;Machine Learning;Python,Own end-to-end delivery as a Data Scientist and improve performance and quality,2026-10-14
+Full Stack Developer,TechNova,Chennai,Full-time,1,8.8,MongoDB;React;JavaScript;Docker;Git;TypeScript,"Design, develop and ship features as a Full Stack Developer in an agile team",2026-11-10
+.NET Developer,Veda Analytics,Pune,Full-time,3,10.0,Git;REST API;Azure;C#;.NET,Work with cross-functional teams as a .NET Developer on high-impact projects,2026-11-05
+QA / Test Engineer,AppForge,Chennai,Part-time,3,5.0,Python;Selenium;Java;Test Automation;Jira,Own end-to-end delivery as a QA / Test Engineer and improve performance and quality,2026-11-14
+DevOps Engineer,CloudNest,Bangalore,Full-time,5,34.0,Git;CI/CD;Docker;Terraform,Work with cross-functional teams as a DevOps Engineer on high-impact projects,2026-10-16
+Android Developer,MediaWave,Gurgaon,Full-time,1,13.5,Java;Firebase;Git;REST API;Jetpack Compose,Own end-to-end delivery as a Android Developer and improve performance and quality,2026-10-19
+.NET Developer,MediaWave,Hyderabad,Full-time,3,7.7,REST API;Entity Framework;C#;SQL Server;Git,Own end-to-end delivery as a .NET Developer and improve performance and quality,2026-11-01
+.NET Developer,TechNova,Bangalore,Full-time,7,15.5,.NET;Entity Framework;SQL Server;REST API;Azure,Own end-to-end delivery as a .NET Developer and improve performance and quality,2026-11-01
+Full Stack Developer,AppForge,Remote,Contract,5,16.2,JavaScript;MongoDB;SQL;React;Git;Node.js,"Design, develop and ship features as a Full Stack Developer in an agile team",2026-11-10
+Data Scientist,FinEdge,Bangalore,Full-time,4,39.3,SQL;Python;Machine Learning;Pandas;Statistics,Own end-to-end delivery as a Data Scientist and improve performance and quality,2026-11-16
+Machine Learning Engineer,ShopSphere,Jaipur,Full-time,4,25.6,Machine Learning;MLOps;Pandas;Python;TensorFlow,Own end-to-end delivery as a Machine Learning Engineer and improve performance and quality,2026-11-06
+Intern - iOS Developer,PixelCraft,Noida,Internship,0,5.2,iOS;Swift;Firebase;Xcode;REST API,Work with cross-functional teams as a iOS Developer on high-impact projects,2026-10-23
+Android Developer,ShopSphere,Delhi,Part-time,2,10.2,Git;Firebase;Kotlin;Jetpack Compose,"Design, develop and ship features as a Android Developer in an agile team",2026-11-04
+DevOps Engineer,BrightPath,Remote,Part-time,3,14.6,Linux;Terraform;AWS;Kubernetes;CI/CD;Docker,"Design, develop and ship features as a DevOps Engineer in an agile team",2026-10-11
+Machine Learning Engineer,NeuralWorks,Chandigarh,Part-time,1,24.2,AWS;PyTorch;Python;TensorFlow;Machine Learning;Docker,Work with cross-functional teams as a Machine Learning Engineer on high-impact projects,2026-11-13
+Game Developer,TechNova,Hyderabad,Full-time,4,9.3,C++;Unreal Engine;Unity;Git;C#;Game Design,Build and maintain scalable Game Developer solutions for production products,2026-11-16
+Java Developer,AppForge,Bangalore,Full-time,2,20.0,Kafka;Git;Microservices;SQL;Spring Boot,Join our growing team as a Java Developer and work on modern tech stack,2026-11-17
+Intern - C++ Developer,NeuralWorks,Bangalore,Internship,0,6.4,Algorithms;Linux;Multithreading;Data Structures;Git;C++,Build and maintain scalable C++ Developer solutions for production products,2026-11-17
+Java Developer,EduSpark,Bangalore,Full-time,1,7.6,Microservices;Java;Kafka;SQL;Git;Spring Boot,Work with cross-functional teams as a Java Developer on high-impact projects,2026-10-21
+Intern - C++ Developer,InfoSys Labs,Hyderabad,Internship,0,2.3,Multithreading;Algorithms;Data Structures;C++;Git;Linux,Build and maintain scalable C++ Developer solutions for production products,2026-10-22
+Android Developer,TechNova,Bangalore,Full-time,4,8.7,Jetpack Compose;Java;Git;Firebase;REST API,Build and maintain scalable Android Developer solutions for production products,2026-10-25
+Data Analyst,BrightPath,Remote,Full-time,0,11.0,Power BI;Python;SQL;Statistics;Excel,Work with cross-functional teams as a Data Analyst on high-impact projects,2026-11-10
+UI/UX Designer,AppForge,Noida,Full-time,1,10.0,Prototyping;HTML;Figma;Adobe XD,Build and maintain scalable UI/UX Designer solutions for production products,2026-11-12
+Backend Developer,LogiTrack,Bangalore,Contract,3,13.7,REST API;AWS;Node.js;Express,"Design, develop and ship features as a Backend Developer in an agile team",2026-10-31
+UI/UX Designer,ShopSphere,Kolkata,Contract,3,18.0,Figma;UX Research;HTML;Wireframing,Work with cross-functional teams as a UI/UX Designer on high-impact projects,2026-10-26
+QA / Test Engineer,InsightIQ,Bangalore,Full-time,0,8.5,Jira;Java;SQL;Postman;Python;Test Automation,"Design, develop and ship features as a QA / Test Engineer in an agile team",2026-11-16
+Business Analyst,EduSpark,Delhi,Full-time,2,11.0,Power BI;Excel;SQL;Communication,Work with cross-functional teams as a Business Analyst on high-impact projects,2026-11-10
+Full Stack Developer,GreenGrid,Remote,Full-time,5,32.4,TypeScript;MongoDB;Docker;SQL,Own end-to-end delivery as a Full Stack Developer and improve performance and quality,2026-10-27
+Full Stack Developer,PixelCraft,Ahmedabad,Contract,6,17.5,TypeScript;Node.js;React;JavaScript,Build and maintain scalable Full Stack Developer solutions for production products,2026-10-21
+iOS Developer,HealthPulse,Hyderabad,Full-time,6,14.3,iOS;Firebase;Swift;REST API;Git;SwiftUI,Own end-to-end delivery as a iOS Developer and improve performance and quality,2026-10-20
+Full Stack Developer,Orbit Systems,Remote,Full-time,2,21.1,React;MongoDB;SQL;Node.js;TypeScript;Docker,"Design, develop and ship features as a Full Stack Developer in an agile team",2026-11-10
+QA / Test Engineer,GreenGrid,Kochi,Full-time,2,11.4,Jira;Java;Python;Selenium;Postman;Test Automation,"Design, develop and ship features as a QA / Test Engineer in an agile team",2026-10-27
+Machine Learning Engineer,Aarav Software,Hyderabad,Full-time,5,27.0,Machine Learning;Docker;MLOps;Python;Pandas;AWS,Join our growing team as a Machine Learning Engineer and work on modern tech stack,2026-11-18
+AI Engineer,GreenGrid,Bangalore,Full-time,5,47.1,LangChain;AWS;Python;PyTorch,Join our growing team as a AI Engineer and work on modern tech stack,2026-10-28
+Python Developer,InsightIQ,Hyderabad,Full-time,1,9.4,Python;PostgreSQL;Git;Docker;SQL;Django,"Design, develop and ship features as a Python Developer in an agile team",2026-11-15
+Android Developer,AppForge,Bangalore,Full-time,1,5.4,Android;Kotlin;Firebase;REST API,Join our growing team as a Android Developer and work on modern tech stack,2026-11-11
+Intern - C++ Developer,Nimbus Tech,Kolkata,Internship,0,1.6,Data Structures;Algorithms;Linux;Multithreading,Build and maintain scalable C++ Developer solutions for production products,2026-11-15
+Java Developer,Kiran Labs,Bangalore,Full-time,0,5.3,Hibernate;Spring Boot;Java;Microservices;Kafka,Build and maintain scalable Java Developer solutions for production products,2026-10-27
+Cloud Engineer,PixelCraft,Kolkata,Full-time,4,29.7,AWS;Networking;Linux;Azure,Work with cross-functional teams as a Cloud Engineer on high-impact projects,2026-10-19
+Backend Developer,InfoSys Labs,Chennai,Full-time,2,22.1,REST API;AWS;Node.js;MongoDB;Docker;Redis,Work with cross-functional teams as a Backend Developer on high-impact projects,2026-11-03
+Frontend Developer,ShopSphere,Noida,Full-time,0,4.1,JavaScript;React;Git;Redux;HTML;TypeScript,"Design, develop and ship features as a Frontend Developer in an agile team",2026-11-03
+QA / Test Engineer,Kiran Labs,Noida,Full-time,0,14.9,Jira;Selenium;Java;Postman;Test Automation,"Design, develop and ship features as a QA / Test Engineer in an agile team",2026-11-02
+Intern - UI/UX Designer,Zenith Soft,Noida,Internship,0,3.7,Prototyping;Adobe XD;HTML;Wireframing;CSS;Figma,Work with cross-functional teams as a UI/UX Designer on high-impact projects,2026-11-06
+Intern - Java Developer,BrightPath,Bangalore,Internship,0,3.3,Microservices;SQL;Docker;Hibernate,Own end-to-end delivery as a Java Developer and improve performance and quality,2026-11-03
+DevOps Engineer,ShopSphere,Bangalore,Full-time,8,28.3,Linux;AWS;Docker;Git;Terraform;Kubernetes,Join our growing team as a DevOps Engineer and work on modern tech stack,2026-10-28
+Android Developer,PixelCraft,Bangalore,Full-time,5,24.6,Java;Git;Android;Kotlin,Join our growing team as a Android Developer and work on modern tech stack,2026-11-06
+QA / Test Engineer,Bharat Cloud,Hyderabad,Full-time,5,11.3,SQL;Jira;Postman;Selenium;Test Automation,"Design, develop and ship features as a QA / Test Engineer in an agile team",2026-10-22
+Data Engineer,AppForge,Bangalore,Full-time,2,28.0,AWS;Snowflake;ETL;Airflow;SQL;Python,Build and maintain scalable Data Engineer solutions for production products,2026-11-13
+iOS Developer,InfoSys Labs,Chennai,Full-time,3,8.8,SwiftUI;Xcode;iOS;Swift;REST API;Firebase,Own end-to-end delivery as a iOS Developer and improve performance and quality,2026-11-17
+.NET Developer,ShopSphere,Pune,Full-time,6,16.4,Azure;SQL Server;REST API;.NET;C#;Entity Framework,Join our growing team as a .NET Developer and work on modern tech stack,2026-10-15
+Intern - Business Analyst,Veda Analytics,Delhi,Internship,0,2.3,Tableau;Requirement Analysis;Power BI;Jira,"Design, develop and ship features as a Business Analyst in an agile team",2026-11-08
+.NET Developer,NeuralWorks,Hyderabad,Full-time,0,20.7,.NET;Azure;Entity Framework;Git,Own end-to-end delivery as a .NET Developer and improve performance and quality,2026-10-22
+Rust Developer,ShopSphere,Hyderabad,Full-time,4,18.5,Linux;C++;WebAssembly;Systems Programming,Join our growing team as a Rust Developer and work on modern tech stack,2026-11-15
+Cloud Engineer,ShopSphere,Remote,Full-time,2,31.7,Python;Networking;Azure;Terraform;AWS;Kubernetes,Work with cross-functional teams as a Cloud Engineer on high-impact projects,2026-11-03
+UI/UX Designer,NeuralWorks,Noida,Full-time,3,17.3,Figma;CSS;Adobe XD;Wireframing,Build and maintain scalable UI/UX Designer solutions for production products,2026-11-16
+UI/UX Designer,Zenith Soft,Delhi,Full-time,3,22.0,Figma;Prototyping;UX Research;CSS,Build and maintain scalable UI/UX Designer solutions for production products,2026-11-12
+Machine Learning Engineer,FinEdge,Bangalore,Full-time,2,35.9,MLOps;AWS;Pandas;PyTorch;TensorFlow;Machine Learning,Build and maintain scalable Machine Learning Engineer solutions for production products,2026-10-26
+Cloud Engineer,InfoSys Labs,Chennai,Full-time,3,26.3,Networking;Kubernetes;Linux;Terraform;Python,Join our growing team as a Cloud Engineer and work on modern tech stack,2026-11-15
+Flutter Developer,LogiTrack,Noida,Contract,0,7.7,Android;Firebase;Git;Dart,Own end-to-end delivery as a Flutter Developer and improve performance and quality,2026-11-09
+Business Analyst,Orbit Systems,Remote,Part-time,5,15.6,SQL;Requirement Analysis;Power BI;Tableau,Join our growing team as a Business Analyst and work on modern tech stack,2026-11-06
+iOS Developer,Nimbus Tech,Hyderabad,Full-time,3,12.2,REST API;Swift;Firebase;Git;Xcode;iOS,Join our growing team as a iOS Developer and work on modern tech stack,2026-10-17
+C++ Developer,BrightPath,Ahmedabad,Full-time,0,6.5,Multithreading;Data Structures;Linux;Algorithms;C++,"Design, develop and ship features as a C++ Developer in an agile team",2026-11-17
+Business Analyst,BrightPath,Gurgaon,Contract,4,11.4,Jira;Excel;Power BI;SQL;Requirement Analysis;Tableau,"Design, develop and ship features as a Business Analyst in an agile team",2026-11-11
+Data Engineer,HealthPulse,Chandigarh,Full-time,6,46.5,Python;Airflow;Snowflake;Kafka;ETL,Join our growing team as a Data Engineer and work on modern tech stack,2026-11-12
+Blockchain Developer,CloudNest,Pune,Full-time,5,43.4,Ethereum;Solidity;JavaScript;Smart Contracts;Node.js,"Design, develop and ship features as a Blockchain Developer in an agile team",2026-10-17
+Frontend Developer,GreenGrid,Bangalore,Full-time,0,15.1,TypeScript;HTML;JavaScript;Redux;Git,Build and maintain scalable Frontend Developer solutions for production products,2026-11-10
+Data Engineer,BrightPath,Bangalore,Full-time,1,15.7,Snowflake;Kafka;AWS;Python;ETL;Spark,"Design, develop and ship features as a Data Engineer in an agile team",2026-11-15
+C++ Developer,Kiran Labs,Noida,Contract,4,24.3,Multithreading;Git;Linux;Algorithms;Data Structures;C++,Build and maintain scalable C++ Developer solutions for production products,2026-11-17
+Rust Developer,Pragati Digital,Bangalore,Part-time,4,29.9,Rust;Systems Programming;Linux;Git;C++,Build and maintain scalable Rust Developer solutions for production products,2026-11-03
+Flutter Developer,Zenith Soft,Noida,Full-time,4,17.2,REST API;Git;Firebase;Flutter;iOS;Android,Join our growing team as a Flutter Developer and work on modern tech stack,2026-10-28
+Intern - Rust Developer,Zenith Soft,Gurgaon,Internship,0,9.0,Linux;Systems Programming;Rust;WebAssembly;C++;Git,Work with cross-functional teams as a Rust Developer on high-impact projects,2026-11-13
+Backend Developer,CyberShield,Chennai,Full-time,2,9.7,MongoDB;REST API;SQL;Express,Join our growing team as a Backend Developer and work on modern tech stack,2026-11-12
+Android Developer,Nimbus Tech,Hyderabad,Full-time,0,17.2,Jetpack Compose;Android;REST API;Firebase,Build and maintain scalable Android Developer solutions for production products,2026-10-28
+Cloud Engineer,EduSpark,Bangalore,Part-time,4,11.5,Python;Networking;Kubernetes;AWS;Linux;Terraform,Join our growing team as a Cloud Engineer and work on modern tech stack,2026-10-23
+Golang Developer,EduSpark,Bangalore,Full-time,1,25.0,REST API;Microservices;Kubernetes;Go,"Design, develop and ship features as a Golang Developer in an agile team",2026-11-03
+Game Developer,Orbit Systems,Jaipur,Full-time,5,9.4,Game Design;Git;Unreal Engine;C++;C#;Unity,"Design, develop and ship features as a Game Developer in an agile team",2026-11-17
+Python Developer,EduSpark,Indore,Full-time,4,17.7,Flask;Django;Git;Python;REST API;SQL,Join our growing team as a Python Developer and work on modern tech stack,2026-10-19
+Intern - Java Developer,LogiTrack,Hyderabad,Internship,0,2.6,Kafka;Docker;Java;Git;Microservices,"Design, develop and ship features as a Java Developer in an agile team",2026-10-31
+.NET Developer,TechNova,Remote,Full-time,5,7.1,SQL Server;Git;.NET;REST API,"Design, develop and ship features as a .NET Developer in an agile team",2026-11-18
+Frontend Developer,DataBridge,Bangalore,Full-time,5,19.4,JavaScript;TypeScript;Redux;Git;React,Work with cross-functional teams as a Frontend Developer on high-impact projects,2026-11-13
+Flutter Developer,Pragati Digital,Chennai,Full-time,3,15.6,Dart;REST API;Flutter;Git;Android,"Design, develop and ship features as a Flutter Developer in an agile team",2026-11-06
+AI Engineer,NeuralWorks,Noida,Full-time,3,19.0,PyTorch;LangChain;LLM;Deep Learning;NLP;AWS,Own end-to-end delivery as a AI Engineer and improve performance and quality,2026-11-17
+Data Analyst,TechNova,Chennai,Full-time,2,14.4,Pandas;Excel;Statistics;Power BI;Python,Work with cross-functional teams as a Data Analyst on high-impact projects,2026-10-28
+Business Analyst,BrightPath,Remote,Full-time,5,27.8,Excel;Tableau;Power BI;Jira,"Design, develop and ship features as a Business Analyst in an agile team",2026-10-21
+AI Engineer,Pragati Digital,Pune,Full-time,3,27.4,NLP;Python;LLM;AWS;LangChain,Build and maintain scalable AI Engineer solutions for production products,2026-10-13
+Backend Developer,Aarav Software,Chennai,Full-time,1,8.3,REST API;MongoDB;Docker;SQL,Join our growing team as a Backend Developer and work on modern tech stack,2026-11-10
+Backend Developer,DataBridge,Hyderabad,Full-time,5,24.6,SQL;AWS;Docker;MongoDB;REST API;Node.js,Work with cross-functional teams as a Backend Developer on high-impact projects,2026-10-23
+Backend Developer,Veda Analytics,Chennai,Full-time,4,13.0,Node.js;SQL;Redis;Express;AWS;REST API,Work with cross-functional teams as a Backend Developer on high-impact projects,2026-10-21
+Machine Learning Engineer,GreenGrid,Bangalore,Full-time,7,24.5,Python;Docker;Pandas;TensorFlow;MLOps;PyTorch,Join our growing team as a Machine Learning Engineer and work on modern tech stack,2026-11-12
+Data Engineer,QuantumLeap,Remote,Full-time,2,15.2,Airflow;Kafka;ETL;Python;Spark;AWS,"Design, develop and ship features as a Data Engineer in an agile team",2026-10-16
+Frontend Developer,QuantumLeap,Gurgaon,Part-time,1,2.7,Redux;Git;CSS;React;JavaScript,Join our growing team as a Frontend Developer and work on modern tech stack,2026-11-08
+UI/UX Designer,Vistara Tech,Noida,Full-time,0,11.7,Wireframing;Figma;CSS;HTML;Adobe XD;UX Research,"Design, develop and ship features as a UI/UX Designer in an agile team",2026-11-09
+Backend Developer,Veda Analytics,Noida,Full-time,0,17.0,Redis;Express;Node.js;SQL,"Design, develop and ship features as a Backend Developer in an agile team",2026-10-27
+.NET Developer,PixelCraft,Remote,Full-time,5,8.3,C#;.NET;Entity Framework;Git;REST API,"Design, develop and ship features as a .NET Developer in an agile team",2026-11-16
+AI Engineer,CodeCraft,Hyderabad,Full-time,3,45.7,Deep Learning;Python;LangChain;AWS;NLP;LLM,Join our growing team as a AI Engineer and work on modern tech stack,2026-11-07
+Android Developer,InfoSys Labs,Gurgaon,Full-time,2,9.8,Git;REST API;Android;Jetpack Compose;Java;Firebase,"Design, develop and ship features as a Android Developer in an agile team",2026-11-10
+Python Developer,CloudNest,Dehradun,Full-time,3,8.3,Django;PostgreSQL;Git;Python,Work with cross-functional teams as a Python Developer on high-impact projects,2026-11-11
+QA / Test Engineer,CodeCraft,Remote,Full-time,0,4.9,Postman;Java;SQL;Test Automation;Python,Own end-to-end delivery as a QA / Test Engineer and improve performance and quality,2026-10-28
+Intern - Rust Developer,Swift Logic,Bangalore,Internship,0,9.0,WebAssembly;Linux;Rust;C++;Git,"Design, develop and ship features as a Rust Developer in an agile team",2026-10-28
+Data Analyst,AppForge,Remote,Full-time,3,16.4,Excel;Python;Power BI;Pandas;SQL;Tableau,Own end-to-end delivery as a Data Analyst and improve performance and quality,2026-11-15
+Intern - Android Developer,PixelCraft,Bangalore,Internship,0,3.1,Firebase;Jetpack Compose;Java;Android;REST API,Work with cross-functional teams as a Android Developer on high-impact projects,2026-11-05
+Intern - .NET Developer,QuantumLeap,Noida,Internship,0,2.7,Git;C#;REST API;Azure;Entity Framework;.NET,"Design, develop and ship features as a .NET Developer in an agile team",2026-10-20
+Data Scientist,Indus AI,Pune,Full-time,2,24.5,Scikit-learn;Statistics;Python;Machine Learning;TensorFlow;SQL,Build and maintain scalable Data Scientist solutions for production products,2026-11-02
+Blockchain Developer,CodeCraft,Noida,Full-time,3,39.9,Smart Contracts;Ethereum;Solidity;Node.js;Web3;JavaScript,Work with cross-functional teams as a Blockchain Developer on high-impact projects,2026-11-17
+C++ Developer,NeuralWorks,Pune,Full-time,1,23.2,Linux;Algorithms;C++;Multithreading;Data Structures;Git,Work with cross-functional teams as a C++ Developer on high-impact projects,2026-11-02
+Business Analyst,LogiTrack,Remote,Full-time,3,21.0,Excel;Power BI;Communication;Tableau;Requirement Analysis;Jira,Work with cross-functional teams as a Business Analyst on high-impact projects,2026-11-17
+Full Stack Developer,QuantumLeap,Noida,Full-time,3,25.1,Docker;TypeScript;JavaScript;React;MongoDB,Work with cross-functional teams as a Full Stack Developer on high-impact projects,2026-10-30
+Backend Developer,Bharat Cloud,Pune,Contract,0,7.7,Redis;Docker;REST API;AWS,Build and maintain scalable Backend Developer solutions for production products,2026-11-04
+Golang Developer,Aarav Software,Ahmedabad,Full-time,5,20.5,gRPC;PostgreSQL;Docker;Microservices;REST API,"Design, develop and ship features as a Golang Developer in an agile team",2026-10-17
+.NET Developer,InfoSys Labs,Dehradun,Full-time,6,24.1,SQL Server;REST API;.NET;Git,Work with cross-functional teams as a .NET Developer on high-impact projects,2026-11-12
+Backend Developer,AppForge,Remote,Full-time,5,26.5,Redis;SQL;MongoDB;REST API,"Design, develop and ship features as a Backend Developer in an agile team",2026-11-13
+Cloud Engineer,CloudNest,Remote,Full-time,4,16.4,Azure;Networking;Linux;Terraform;Python,Build and maintain scalable Cloud Engineer solutions for production products,2026-10-24
+Backend Developer,Indus AI,Gurgaon,Full-time,1,20.6,SQL;REST API;MongoDB;Node.js;Redis,Work with cross-functional teams as a Backend Developer on high-impact projects,2026-11-13
+Golang Developer,Indus AI,Remote,Full-time,6,26.2,REST API;PostgreSQL;gRPC;Docker,Own end-to-end delivery as a Golang Developer and improve performance and quality,2026-11-14
+Intern - Machine Learning Engineer,DataBridge,Remote,Internship,0,6.7,Docker;Machine Learning;MLOps;Python;AWS,Build and maintain scalable Machine Learning Engineer solutions for production products,2026-11-15
+Java Developer,DataBridge,Bangalore,Full-time,4,18.8,Spring Boot;SQL;Docker;Microservices;Hibernate;Java,Build and maintain scalable Java Developer solutions for production products,2026-10-29
+Blockchain Developer,Kiran Labs,Remote,Full-time,4,28.4,Web3;Ethereum;Node.js;JavaScript;Smart Contracts;Solidity,Build and maintain scalable Blockchain Developer solutions for production products,2026-10-14
+Cyber Security Analyst,Nimbus Tech,Remote,Full-time,3,10.8,Penetration Testing;Python;Linux;Ethical Hacking;Network Security,Build and maintain scalable Cyber Security Analyst solutions for production products,2026-10-19
+Data Engineer,LogiTrack,Noida,Full-time,4,12.7,Snowflake;SQL;Spark;ETL;AWS;Python,Build and maintain scalable Data Engineer solutions for production products,2026-11-08
+Machine Learning Engineer,Veda Analytics,Bangalore,Full-time,6,39.1,PyTorch;Pandas;Python;MLOps;TensorFlow,"Design, develop and ship features as a Machine Learning Engineer in an agile team",2026-11-03
+Frontend Developer,InfoSys Labs,Bangalore,Full-time,1,17.5,Tailwind;Git;CSS;JavaScript,Join our growing team as a Frontend Developer and work on modern tech stack,2026-11-02
+Android Developer,HealthPulse,Pune,Part-time,1,3.8,Git;Jetpack Compose;Android;Firebase;Java;Kotlin,"Design, develop and ship features as a Android Developer in an agile team",2026-11-14
+C++ Developer,CodeCraft,Bangalore,Full-time,4,20.4,Git;Linux;Data Structures;Algorithms,"Design, develop and ship features as a C++ Developer in an agile team",2026-10-28
+Golang Developer,Veda Analytics,Hyderabad,Full-time,3,38.3,Kubernetes;PostgreSQL;Microservices;Docker;Go;REST API,Join our growing team as a Golang Developer and work on modern tech stack,2026-11-16
+Data Analyst,Vistara Tech,Jaipur,Full-time,1,8.3,Python;Excel;SQL;Power BI;Pandas,Build and maintain scalable Data Analyst solutions for production products,2026-11-06
+Cyber Security Analyst,CodeCraft,Mumbai,Full-time,2,7.8,Python;Ethical Hacking;Network Security;Penetration Testing;SIEM;Linux,"Design, develop and ship features as a Cyber Security Analyst in an agile team",2026-11-16
+Frontend Developer,HealthPulse,Noida,Full-time,0,17.6,HTML;Git;React;Tailwind;JavaScript,Join our growing team as a Frontend Developer and work on modern tech stack,2026-11-16
+Game Developer,Zenith Soft,Bangalore,Part-time,0,4.9,C++;C#;Git;Game Design;Unity;Unreal Engine,Join our growing team as a Game Developer and work on modern tech stack,2026-11-01
+Data Scientist,Pragati Digital,Remote,Part-time,1,16.3,Scikit-learn;SQL;NLP;Pandas;Machine Learning;TensorFlow,Own end-to-end delivery as a Data Scientist and improve performance and quality,2026-11-10
+Data Analyst,Swift Logic,Bangalore,Full-time,4,9.9,Excel;Power BI;Python;SQL;Statistics;Pandas,"Design, develop and ship features as a Data Analyst in an agile team",2026-11-11
+QA / Test Engineer,DataBridge,Kolkata,Full-time,2,11.5,Selenium;Python;Postman;Test Automation;Java,Own end-to-end delivery as a QA / Test Engineer and improve performance and quality,2026-10-21
+Intern - Flutter Developer,EduSpark,Remote,Internship,0,3.5,Firebase;Flutter;Git;REST API,Own end-to-end delivery as a Flutter Developer and improve performance and quality,2026-10-29
+Cloud Engineer,Aarav Software,Hyderabad,Full-time,3,24.0,Azure;Kubernetes;Linux;Networking,"Design, develop and ship features as a Cloud Engineer in an agile team",2026-10-31
+Blockchain Developer,Indus AI,Pune,Full-time,5,47.1,Smart Contracts;Web3;Node.js;Ethereum;JavaScript,"Design, develop and ship features as a Blockchain Developer in an agile team",2026-11-08
+Data Engineer,ShopSphere,Chennai,Full-time,2,13.8,ETL;AWS;Airflow;SQL;Python,Own end-to-end delivery as a Data Engineer and improve performance and quality,2026-11-05
+Python Developer,Swift Logic,Delhi,Full-time,1,15.4,Flask;Docker;Git;REST API,"Design, develop and ship features as a Python Developer in an agile team",2026-11-14
+Full Stack Developer,ShopSphere,Pune,Full-time,4,20.7,TypeScript;Docker;MongoDB;Node.js;JavaScript,Join our growing team as a Full Stack Developer and work on modern tech stack,2026-11-17
+C++ Developer,Pragati Digital,Hyderabad,Full-time,5,25.4,Multithreading;C++;Git;Linux,Join our growing team as a C++ Developer and work on modern tech stack,2026-10-09
+.NET Developer,LogiTrack,Noida,Full-time,5,12.6,.NET;C#;SQL Server;Azure,Own end-to-end delivery as a .NET Developer and improve performance and quality,2026-11-16
+Full Stack Developer,Nimbus Tech,Noida,Full-time,4,18.1,MongoDB;React;Node.js;TypeScript;SQL;JavaScript,Work with cross-functional teams as a Full Stack Developer on high-impact projects,2026-10-24
+Java Developer,Zenith Soft,Bangalore,Full-time,1,9.4,Kafka;Java;Git;Microservices;SQL,Join our growing team as a Java Developer and work on modern tech stack,2026-11-18
+Android Developer,ShopSphere,Gurgaon,Contract,0,8.3,Android;Jetpack Compose;Firebase;REST API,"Design, develop and ship features as a Android Developer in an agile team",2026-11-09
+AI Engineer,Kiran Labs,Hyderabad,Part-time,1,21.4,Deep Learning;LangChain;Python;PyTorch;NLP,Join our growing team as a AI Engineer and work on modern tech stack,2026-11-08
+Java Developer,PixelCraft,Remote,Contract,1,10.4,Kafka;Microservices;Hibernate;Spring Boot;SQL;Git,Build and maintain scalable Java Developer solutions for production products,2026-10-31
+C++ Developer,CodeCraft,Kolkata,Contract,0,20.3,Algorithms;Data Structures;C++;Git;Multithreading,Own end-to-end delivery as a C++ Developer and improve performance and quality,2026-10-20
+Flutter Developer,EduSpark,Bangalore,Full-time,1,12.1,Git;REST API;Android;Dart;Firebase;Flutter,Build and maintain scalable Flutter Developer solutions for production products,2026-11-17
+Flutter Developer,Aarav Software,Noida,Full-time,0,7.8,Android;REST API;Dart;Firebase;iOS;Git,Own end-to-end delivery as a Flutter Developer and improve performance and quality,2026-11-13
+Machine Learning Engineer,InsightIQ,Mumbai,Full-time,5,40.9,PyTorch;Python;TensorFlow;Machine Learning;AWS,Work with cross-functional teams as a Machine Learning Engineer on high-impact projects,2026-11-06
+Intern - Backend Developer,Nimbus Tech,Bangalore,Internship,0,4.4,Node.js;Express;Redis;MongoDB,Work with cross-functional teams as a Backend Developer on high-impact projects,2026-11-16
+Cloud Engineer,NeuralWorks,Delhi,Full-time,5,19.1,AWS;Kubernetes;Networking;Python,Work with cross-functional teams as a Cloud Engineer on high-impact projects,2026-11-01
+Cloud Engineer,TechNova,Gurgaon,Contract,1,30.9,Python;Terraform;Azure;AWS;Networking,Own end-to-end delivery as a Cloud Engineer and improve performance and quality,2026-11-15
+Data Engineer,Swift Logic,Remote,Full-time,1,33.8,ETL;SQL;AWS;Spark,Build and maintain scalable Data Engineer solutions for production products,2026-10-24
+Blockchain Developer,CyberShield,Bangalore,Full-time,4,31.2,JavaScript;Solidity;Web3;Node.js;Ethereum;Smart Contracts,Own end-to-end delivery as a Blockchain Developer and improve performance and quality,2026-11-15
+iOS Developer,Zenith Soft,Delhi,Full-time,3,13.0,iOS;REST API;Swift;Xcode;Git;SwiftUI,Build and maintain scalable iOS Developer solutions for production products,2026-10-31
+Blockchain Developer,PixelCraft,Bangalore,Full-time,4,39.3,Smart Contracts;Solidity;Node.js;Ethereum,Own end-to-end delivery as a Blockchain Developer and improve performance and quality,2026-11-09
+Backend Developer,GreenGrid,Chandigarh,Contract,4,12.5,SQL;Express;REST API;AWS;MongoDB,Own end-to-end delivery as a Backend Developer and improve performance and quality,2026-11-15
+Flutter Developer,InfoSys Labs,Hyderabad,Full-time,3,21.0,Git;Firebase;Dart;Flutter;iOS;REST API,"Design, develop and ship features as a Flutter Developer in an agile team",2026-11-17
+Flutter Developer,TechNova,Noida,Full-time,0,6.6,Dart;Firebase;REST API;iOS,Work with cross-functional teams as a Flutter Developer on high-impact projects,2026-10-24
+Game Developer,CodeCraft,Hyderabad,Full-time,2,20.2,C#;Unity;Game Design;C++,Work with cross-functional teams as a Game Developer on high-impact projects,2026-10-22
+Backend Developer,PixelCraft,Mumbai,Full-time,4,23.8,Node.js;SQL;Redis;MongoDB;REST API,Join our growing team as a Backend Developer and work on modern tech stack,2026-10-26
+DevOps Engineer,Vistara Tech,Hyderabad,Full-time,1,29.3,Linux;Docker;Git;CI/CD;AWS;Jenkins,Join our growing team as a DevOps Engineer and work on modern tech stack,2026-11-14
+Business Analyst,FinEdge,Bangalore,Contract,4,16.7,Tableau;Requirement Analysis;Communication;Jira;SQL,Build and maintain scalable Business Analyst solutions for production products,2026-11-11
+Android Developer,BrightPath,Noida,Full-time,3,20.2,Java;REST API;Firebase;Kotlin;Git;Jetpack Compose,Own end-to-end delivery as a Android Developer and improve performance and quality,2026-11-02
+Python Developer,HealthPulse,Hyderabad,Full-time,1,12.4,Git;Docker;REST API;Python;Flask;PostgreSQL,Join our growing team as a Python Developer and work on modern tech stack,2026-10-17
+Intern - Cyber Security Analyst,EduSpark,Bangalore,Internship,0,4.1,SIEM;Ethical Hacking;Penetration Testing;Network Security,Build and maintain scalable Cyber Security Analyst solutions for production products,2026-11-18
+iOS Developer,Swift Logic,Bangalore,Full-time,6,17.7,Xcode;Firebase;Swift;SwiftUI,Build and maintain scalable iOS Developer solutions for production products,2026-11-02
+Rust Developer,Veda Analytics,Gurgaon,Contract,3,35.5,WebAssembly;Git;C++;Rust,Own end-to-end delivery as a Rust Developer and improve performance and quality,2026-11-10
+DevOps Engineer,AppForge,Indore,Part-time,2,17.1,CI/CD;Terraform;Linux;Kubernetes;AWS,Own end-to-end delivery as a DevOps Engineer and improve performance and quality,2026-11-15
+Intern - Flutter Developer,AppForge,Delhi,Internship,0,2.5,Git;Dart;Firebase;Flutter;iOS,Own end-to-end delivery as a Flutter Developer and improve performance and quality,2026-10-31
+Cyber Security Analyst,ShopSphere,Ahmedabad,Contract,5,11.6,Ethical Hacking;Penetration Testing;Python;Linux,Build and maintain scalable Cyber Security Analyst solutions for production products,2026-11-05
+DevOps Engineer,Zenith Soft,Kochi,Full-time,7,12.5,AWS;CI/CD;Kubernetes;Jenkins,Build and maintain scalable DevOps Engineer solutions for production products,2026-11-01
+Backend Developer,GreenGrid,Pune,Full-time,5,29.5,REST API;MongoDB;AWS;Docker;Redis;Node.js,"Design, develop and ship features as a Backend Developer in an agile team",2026-11-11
+AI Engineer,DataBridge,Remote,Contract,2,16.0,Python;Docker;AWS;LLM,Work with cross-functional teams as a AI Engineer on high-impact projects,2026-10-31
+Data Analyst,MediaWave,Delhi,Full-time,3,13.7,Excel;Power BI;Tableau;Statistics;Pandas,Build and maintain scalable Data Analyst solutions for production products,2026-11-12
+Backend Developer,QuantumLeap,Chennai,Full-time,2,8.9,Node.js;Docker;SQL;MongoDB;Redis,"Design, develop and ship features as a Backend Developer in an agile team",2026-11-01
+.NET Developer,FinEdge,Noida,Full-time,5,22.3,REST API;C#;SQL Server;.NET;Azure,Work with cross-functional teams as a .NET Developer on high-impact projects,2026-10-23
+Intern - UI/UX Designer,PixelCraft,Hyderabad,Internship,0,4.4,Prototyping;Wireframing;Figma;CSS;Adobe XD;HTML,Join our growing team as a UI/UX Designer and work on modern tech stack,2026-10-20
+Game Developer,Orbit Systems,Noida,Part-time,0,3.5,Git;Unity;C++;Unreal Engine;Game Design;C#,Own end-to-end delivery as a Game Developer and improve performance and quality,2026-10-30
+UI/UX Designer,HealthPulse,Mumbai,Full-time,3,18.5,Wireframing;UX Research;HTML;Adobe XD,Own end-to-end delivery as a UI/UX Designer and improve performance and quality,2026-10-31
+AI Engineer,DataBridge,Mumbai,Full-time,4,37.7,Python;Docker;LangChain;PyTorch;NLP,Own end-to-end delivery as a AI Engineer and improve performance and quality,2026-10-20
+Data Analyst,CloudNest,Bangalore,Full-time,2,7.2,Tableau;Power BI;Python;Excel;Pandas;SQL,Join our growing team as a Data Analyst and work on modern tech stack,2026-11-16
+Intern - iOS Developer,Kiran Labs,Chennai,Internship,0,3.5,Firebase;Xcode;REST API;SwiftUI,Work with cross-functional teams as a iOS Developer on high-impact projects,2026-11-16
+Business Analyst,InfoSys Labs,Pune,Full-time,0,14.7,Jira;SQL;Communication;Tableau;Requirement Analysis;Excel,Join our growing team as a Business Analyst and work on modern tech stack,2026-11-04
+DevOps Engineer,Kiran Labs,Remote,Full-time,1,20.2,Git;Kubernetes;Linux;Terraform;AWS,Build and maintain scalable DevOps Engineer solutions for production products,2026-10-31
+Business Analyst,Aarav Software,Pune,Full-time,0,6.0,Communication;Tableau;Power BI;Requirement Analysis;Jira,"Design, develop and ship features as a Business Analyst in an agile team",2026-11-13
+Android Developer,Bharat Cloud,Gurgaon,Full-time,2,21.8,Git;Kotlin;Java;Android;REST API,Join our growing team as a Android Developer and work on modern tech stack,2026-11-11
+Backend Developer,Swift Logic,Remote,Part-time,1,6.5,SQL;Express;Node.js;MongoDB;AWS,Work with cross-functional teams as a Backend Developer on high-impact projects,2026-10-19
+Full Stack Developer,PixelCraft,Remote,Full-time,5,31.0,Git;JavaScript;React;Docker;SQL;MongoDB,Own end-to-end delivery as a Full Stack Developer and improve performance and quality,2026-11-01
+Full Stack Developer,QuantumLeap,Bangalore,Full-time,4,23.2,React;Docker;SQL;MongoDB;Node.js;JavaScript,Build and maintain scalable Full Stack Developer solutions for production products,2026-11-14
+iOS Developer,LogiTrack,Hyderabad,Full-time,3,9.0,Swift;Firebase;Xcode;iOS,"Design, develop and ship features as a iOS Developer in an agile team",2026-11-03
+Intern - Python Developer,Aarav Software,Jaipur,Internship,0,3.2,Flask;PostgreSQL;Git;Django,"Design, develop and ship features as a Python Developer in an agile team",2026-11-10
+AI Engineer,LogiTrack,Mumbai,Contract,6,33.5,Deep Learning;Docker;NLP;LLM;LangChain,Work with cross-functional teams as a AI Engineer on high-impact projects,2026-11-09
+Intern - DevOps Engineer,Kiran Labs,Kolkata,Internship,0,5.4,Terraform;AWS;Git;Jenkins,Work with cross-functional teams as a DevOps Engineer on high-impact projects,2026-11-12
+Backend Developer,AppForge,Dehradun,Full-time,3,8.2,REST API;Redis;Express;Node.js,Own end-to-end delivery as a Backend Developer and improve performance and quality,2026-11-02
+Full Stack Developer,CyberShield,Kochi,Full-time,3,28.4,SQL;Docker;MongoDB;JavaScript;Node.js;React,Build and maintain scalable Full Stack Developer solutions for production products,2026-11-06
+PHP Developer,TechNova,Pune,Full-time,0,9.4,CSS;PHP;JavaScript;MySQL;Git;Laravel,Join our growing team as a PHP Developer and work on modern tech stack,2026-11-05
+Java Developer,Zenith Soft,Delhi,Full-time,2,17.5,Spring Boot;SQL;Hibernate;Docker;Java,"Design, develop and ship features as a Java Developer in an agile team",2026-11-01
+Java Developer,Veda Analytics,Bangalore,Full-time,6,13.0,Microservices;SQL;Git;Hibernate,Join our growing team as a Java Developer and work on modern tech stack,2026-11-01
+PHP Developer,Bharat Cloud,Chennai,Contract,0,4.5,Laravel;CSS;PHP;HTML,Join our growing team as a PHP Developer and work on modern tech stack,2026-11-12
+Business Analyst,Vistara Tech,Pune,Full-time,5,27.0,Communication;Jira;SQL;Power BI;Excel;Tableau,Build and maintain scalable Business Analyst solutions for production products,2026-11-09
+Python Developer,TechNova,Bangalore,Full-time,2,14.8,PostgreSQL;REST API;Python;Docker;SQL;Git,Build and maintain scalable Python Developer solutions for production products,2026-11-09
