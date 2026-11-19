@@ -36,7 +36,7 @@ ALIASES = {
     "mongo": "mongodb", "tf": "tensorflow", "sklearn": "scikit-learn", "powerbi": "power bi",
     "ts": "typescript", "springboot": "spring boot", "ci cd": "ci/cd", "cicd": "ci/cd", "rest": "rest api",
 }
-TIME_OPTIONS = {"Kabhi bhi": None, "Last 24 hours": 1, "Last 3 days": 3, "Last 7 days": 7, "Last 30 days": 30}
+TIME_OPTIONS = {"Any time": None, "Last 24 hours": 1, "Last 3 days": 3, "Last 7 days": 7, "Last 30 days": 30}
 
 
 @st.cache_data
@@ -153,21 +153,21 @@ if "saved" not in st.session_state:
     st.session_state.saved = set()
 
 st.markdown("""<div class='hero'><h1>💼 JobMatch</h1>
-<p>Apni skills batao — hum tumhare liye best jobs dhundhenge, skill gap ke saath.</p></div>""",
+<p>Tell us your skills and we will find the best jobs for you, along with your skill gaps.</p></div>""",
             unsafe_allow_html=True)
 
 with st.sidebar:
     st.header("👤 Your Profile")
     all_skills = sorted({s for l in df.skill_list for s in l})
-    picked = st.multiselect("Skills / Languages", all_skills, default=["Python", "SQL"])
-    typed = st.text_input("Aur skills type karo (comma se)", placeholder="e.g. js, kotlin, flutter, pyhton")
+    picked = st.multiselect("Skills / Languages", all_skills, placeholder="Select your skills / languages")
+    typed = st.text_input("Add more skills (comma-separated)", placeholder="e.g. js, kotlin, flutter, pyhton")
     role = st.text_input("Target role (optional)", placeholder="e.g. Data Analyst")
     exp = st.slider("Experience (years)", 0, 8, 0)
 
     st.header("🔎 Filters")
     all_locs = sorted(df.location.unique())
     locs = st.multiselect("Location", all_locs)
-    typed_loc = st.text_input("Ya location type karo", placeholder="e.g. pune, delhi, remote")
+    typed_loc = st.text_input("Or type a location", placeholder="e.g. pune, delhi, remote")
     posted_label = st.selectbox("Posted within", list(TIME_OPTIONS), index=3)
     types = st.multiselect("Job type", sorted(df.type.unique()))
     min_sal = st.slider("Min salary (LPA)", 0, 40, 0)
@@ -176,10 +176,12 @@ with st.sidebar:
 skills, unknown = resolve_skills(picked + split_input(typed), all_skills)
 all_locations = locs + split_input(typed_loc)
 if unknown:
-    st.toast(f"Dataset mein nahi mili: {', '.join(unknown)}", icon="⚠️")
+    st.toast(f"Not found in dataset: {', '.join(unknown)}", icon="⚠️")
 
+# Jobs are shown only after the user selects/types skills or a target role
+has_query = bool(skills) or bool(role.strip())
 results = recommend(df, skills, role, exp, all_locations, types, min_sal,
-                    TIME_OPTIONS[posted_label], sort_by)
+                    TIME_OPTIONS[posted_label], sort_by) if has_query else df.iloc[0:0]
 if "limit" not in st.session_state:
     st.session_state.limit = 10
 sig = (tuple(skills), role, exp, tuple(all_locations), posted_label, tuple(types), min_sal, sort_by)
@@ -192,33 +194,34 @@ tab1, tab2, tab3 = st.tabs(["✨ Recommendations", "★ Saved Jobs", "📊 Marke
 with tab1:
     st.caption(f"📦 Dataset: {len(df)} jobs • latest posting: {df.posted.max():%d %b %Y}")
     if skills:
-        st.write("**Aapki skills:** " + chips(skills, "have"), unsafe_allow_html=True)
-    if results.empty:
-        st.warning("Koi job match nahi hui. Posted-within, location ya experience filter relax karke dekho.")
+        st.write("**Your skills:** " + chips(skills, "have"), unsafe_allow_html=True)
+    if not has_query:
+        if split_input(typed) and not skills:
+            st.warning("We could not recognise those skills. Try a different spelling or pick from the list.")
+        else:
+            st.info("👈 Select your skills (or a target role) in the sidebar to get job recommendations.")
+    elif results.empty:
+        st.warning("No matching jobs found. Try relaxing the posted-within, location or experience filters.")
     else:
-        has_query = bool(skills) or bool(role.strip())
-        if not has_query:
-            st.info("Skills select/type karo to match % dikhega. Abhi latest jobs dikh rahi hain.")
         c1, c2, c3 = st.columns(3)
         c1.metric("Jobs found", len(results))
-        c2.metric("Best match" if has_query else "Newest", f"{results.score.max()}%" if has_query
-                  else ago(results.days_ago.min()))
+        c2.metric("Best match", f"{results.score.max()}%")
         gaps = pd.Series([s for l in results.head(5).missing for s in l])
-        c3.metric("Top skill to learn", gaps.value_counts().index[0] if len(gaps) and has_query else "—")
+        c3.metric("Top skill to learn", gaps.value_counts().index[0] if len(gaps) else "—")
         st.write("")
         for idx, r in results.head(st.session_state.limit).iterrows():
-            card(r, idx, show_score=has_query)
+            card(r, idx)
         if len(results) > st.session_state.limit:
-            if st.button(f"⬇️ Aur dikhao ({len(results) - st.session_state.limit} baaki)"):
+            if st.button(f"⬇️ Show more ({len(results) - st.session_state.limit} remaining)"):
                 st.session_state.limit += 10
                 st.rerun()
-        st.download_button("📥 Results CSV download", results[["title", "company", "location", "type",
+        st.download_button("📥 Download results as CSV", results[["title", "company", "location", "type",
                            "experience", "salary_lpa", "skills", "posted_date"]].to_csv(index=False),
                            "recommended_jobs.csv", "text/csv")
 
 with tab2:
     if not st.session_state.saved:
-        st.info("Abhi koi job save nahi ki.")
+        st.info("No jobs saved yet.")
     for idx in sorted(st.session_state.saved):
         r = df.loc[idx]
         st.markdown(f"**{r.title}** — {r.company}, {r.location} (₹{r.salary_lpa} LPA)")
